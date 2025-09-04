@@ -4,7 +4,7 @@
         <div class="container">
             <!-- Logo START -->
             <a class="navbar-brand" href="index.php">
-                <img class="light-mode-item navbar-brand-item" src="assets/finallogo.png" alt="logo" width="300px" height="400px" >
+                <img class="light-mode-item navbar-brand-item" src="assets/finallogo2.png">
             </a>
             <!-- Logo END -->
 

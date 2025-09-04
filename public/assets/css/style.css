@@ -19423,11 +19423,12 @@ textarea.form-control-lg {
   .navbar-expand-xl .navbar-top {
     z-index: 1100 !important;
   }
-  .navbar-expand-xl .navbar-brand .navbar-brand-item {
-    height: 36px;
-    display: block;
-    width: auto;
-  }
+.navbar-expand-xl .navbar-brand .navbar-brand-item {
+  height: 92px;
+  width: auto;
+  display: block;
+  object-fit: contain;
+}
   .navbar-expand-xl .navbar-nav .dropdown > .dropdown-menu {
     top: 120%;
     visibility: hidden;
@@ -19985,9 +19986,9 @@ textarea.form-control-lg {
   header.navbar-sticky-on .navbar-brand {
     padding: 14px 0;
   }
-  header.navbar-sticky-on .navbar-brand .navbar-brand-item {
+  /* header.navbar-sticky-on .navbar-brand .navbar-brand-item {
     height: 22px;
-  }
+  } */
 }
 @-webkit-keyframes fadeInDown {
   from {
