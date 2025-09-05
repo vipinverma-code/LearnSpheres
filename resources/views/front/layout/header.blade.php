@@ -24,12 +24,15 @@
                 <!-- Nav Main menu START -->
                 <ul class="navbar-nav navbar-nav-scroll mx-auto">
                     <!-- Nav item 1 Demos -->
-                    <li class="nav-item dropdown">
+                    {{-- <li class="nav-item dropdown">
                         <a class="nav-link dropdown-toggle" href="#" id="demoMenu" data-bs-toggle="dropdown"
-                            aria-haspopup="true" aria-expanded="false">Demos</a>
+                            aria-haspopup="true" aria-expanded="false">Home</a>
                         <ul class="dropdown-menu" aria-labelledby="demoMenu">
-                            <li> <a class="dropdown-item" href="index.php">Home Default</a></li>
-                            <li> <a class="dropdown-item" href="index-2.php">Home Education</a></li>
+                            <li> <a class="dropdown-item" href="index.php">Home Default</a></li> --}}
+                            <li class="nav-item">
+                                <a class="nav-link" href="index.php">Home</a>
+                            </li>
+                            {{-- <li> <a class="dropdown-item" href="index-2.php">Home Education</a></li>
                             <li> <a class="dropdown-item" href="index-3.php">Home Academy</a></li>
                             <li> <a class="dropdown-item" href="index-4.php">Home Course</a></li>
                             <li> <a class="dropdown-item" href="index-5.php">Home University</a></li>
@@ -38,7 +41,7 @@
                             <li> <a class="dropdown-item" href="index-8.php">Home Tutor</a></li>
                             <li> <a class="dropdown-item" href="index-9.php">Home School</a></li>
                             <li> <a class="dropdown-item" href="index-10.php">Home Abroad</a></li>
-                            <li> <a class="dropdown-item" href="index-11.php">Home Workshop</a></li>
+                            <li> <a class="dropdown-item" href="index-11.php">Home Workshop</a></li> --}}
                         </ul>
                     </li>
                     <!-- Nav item 2 Pages -->
@@ -47,7 +50,7 @@
                             aria-haspopup="true" aria-expanded="false">Pages</a>
                         <ul class="dropdown-menu" aria-labelledby="pagesMenu">
                             <!-- Dropdown submenu -->
-                            <li class="dropdown-submenu dropend">
+                            <li class="dropdown-submenu dropend">  
                                 <a class="dropdown-item dropdown-toggle" href="#">Course</a>
                                 <ul class="dropdown-menu dropdown-menu-start" data-bs-popper="none">
                                     <li> <a class="dropdown-item" href="course-categories.php">Course Categories</a>
