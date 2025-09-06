@@ -1,4 +1,5 @@
-<section>
+{{-- Courses Categories page --}}
+		<section>
 			<div class="container">
 				<!-- Title -->
 				<div class="row mb-4">
@@ -137,7 +138,8 @@
 							<h5 class="mb-2"><a href="#" class="stretched-link">Musics</a></h5>
 							<h6 class="mb-0">10 Courses</h6>
 						</div>
-					</div>					
+					</div>
+
 					<!-- Item -->
 					<div class="col-sm-6 col-md-4 col-xl-3">
 						<div class="card card-body bg-success bg-opacity-10 text-center position-relative btn-transition p-4">
@@ -150,6 +152,7 @@
 							<h6 class="mb-0">30 Courses</h6>
 						</div>
 					</div>
+
 					<!-- Item -->
 					<div class="col-sm-6 col-md-4 col-xl-3">
 						<div class="card card-body bg-primary bg-opacity-10 text-center position-relative btn-transition p-4">
@@ -165,5 +168,3 @@
 				</div>
 			</div>
 		</section>
-      		
-
