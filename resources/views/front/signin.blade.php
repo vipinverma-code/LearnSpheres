@@ -1,4 +1,4 @@
 @extends('front.layout.master')
 @section('content')
-    @include('front.components.sign-in')  
+    @include('front.Components.signin')
 @endsection

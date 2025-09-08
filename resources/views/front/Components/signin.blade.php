@@ -1,6 +1,5 @@
-
+{{-- SignIn page  --}}
 		<section class="p-0 d-flex align-items-center position-relative overflow-hidden">
-
 			<div class="container-fluid">
 				<div class="row">
 					<!-- left -->
@@ -35,13 +34,14 @@
 							</div>
 						</div>
 					</div>
+
 					<!-- Right -->
 					<div class="col-12 col-lg-6 m-auto">
 						<div class="row my-5">
 							<div class="col-sm-10 col-xl-8 m-auto">
 								<!-- Title -->
 								<span class="mb-0 fs-1">👋</span>
-								<h1 class="fs-2">Login into Eduport!</h1>
+								<h1 class="fs-2">Login into LearnSphere!</h1>
 								<p class="lead mb-4">Nice to see you! Please log in with your account.</p>
 
 								<!-- Form START -->
@@ -87,7 +87,6 @@
 								<!-- Form END -->
 
 								<!-- Social buttons and divider -->
-                                    
 								<div class="row">
 									<!-- Divider with text -->
 									<div class="position-relative my-4">
@@ -115,4 +114,3 @@
 				</div> <!-- Row END -->
 			</div>
 		</section>
-
