@@ -20,13 +20,13 @@
                     </li>
 
                     <li class="nav-item">
-                        <a class="nav-link" href="about.html">About Us</a>
+                        <a class="nav-link" href="{{ route('about') }}">About Us</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" href="courses.html">Courses</a>
+                        <a class="nav-link" href="{{ route('courses') }}">Courses</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" href="contact.html">Contact Us</a>
+                        <a class="nav-link" href="{{ route('contact') }}">Contact Us</a>
                     </li>
 
                     <!-- Dropdown -->
@@ -46,10 +46,10 @@
                 <!-- Right side (Auth buttons) -->
                 <ul class="navbar-nav ms-auto">
                     <li class="nav-item">
-                        <a class="btn btn-primary me-2" href="login.html">Sign In</a>
+                        <a class="btn btn-primary me-2" href="{{ route('SignIn') }}">Sign In</a>
                     </li>
                     <li class="nav-item">
-                        <a class="btn btn-outline-primary" href="register.html">Register</a>
+                        <a class="btn btn-outline-primary" href="{{ route('SignUp') }}">Register</a>
                     </li>
                 </ul>
             </div>
