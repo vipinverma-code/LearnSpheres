@@ -3,7 +3,7 @@
         <div class="container">
             <!-- Logo -->
             <a class="navbar-brand" href="index.html">
-                <img class="light-mode-item navbar-brand-item" src="assets/finallogo2.png" alt="logo">
+                <img class="light-mode-item navbar-brand-item" src="assets/images/finallogo2.png" alt="logo">
             </a>
 
             <!-- Toggler -->
@@ -46,10 +46,10 @@
                 <!-- Right side (Auth buttons) -->
                 <ul class="navbar-nav ms-auto">
                     <li class="nav-item">
-                        <a class="btn btn-primary me-2" href="{{ route('SignIn') }}">Sign In</a>
+                        <a class="btn btn-primary me-2" href="{{ route('signin') }}">Sign In</a>
                     </li>
                     <li class="nav-item">
-                        <a class="btn btn-outline-primary" href="{{ route('SignUp') }}">Register</a>
+                        <a class="btn btn-outline-primary" href="{{ route('signup') }}">Register</a>
                     </li>
                 </ul>
             </div>

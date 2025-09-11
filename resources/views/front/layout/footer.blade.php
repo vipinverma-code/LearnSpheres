@@ -7,10 +7,11 @@
             <div class="col-lg-3">
                 <!-- logo -->
                 <a class="me-0" href="index.php">
-                    <img class="light-mode-item h-40px" src="assets/finallogo2.png" alt="logo" height="100px">
+                    <img class="light-mode-item h-40px" src="assets/2.png" alt="logo" height="100px">
                     <img class="dark-mode-item h-40px" src="assets/finallogo2.png" alt="logo">
                 </a>
-                <p class="my-3"><b>LearnSphere combines structured learning, real-time mentorship, and intelligent support into one platform.</b> </p>
+                <p class="my-3"><b>LearnSphere combines structured learning, real-time mentorship, and intelligent
+                        support into one platform.</b> </p>
                 <!-- Social media icon -->
                 <ul class="list-inline mb-0 mt-3">
                     <li class="list-inline-item"> <a class="btn btn-white btn-sm shadow px-2 text-facebook"

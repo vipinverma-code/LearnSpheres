@@ -3,7 +3,7 @@
           <!-- Title -->
           <div class="row mb-4">
               <div class="col-lg-8">
-                  <h2>About Eduport Portal</h2>
+                  <h2>About LearnSphere Portal</h2>
                   <p class="mb-0">How promotion excellent curiosity yet attempted happiness Gay prosperous impression
                       had conviction For every delay death ask to style Me mean able my by in they Extremity now
                       strangers contained.</p>
