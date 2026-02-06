@@ -16,5 +16,3 @@ Route::view('/signup', 'front.signup')->name('signup');
 Route::view('/Admin','admin.admin')->name('Admin');
 Route::get('/admin/dashboard', [AdminController::class, 'dashboard'])->name('admin.dashboard');
 
-
-

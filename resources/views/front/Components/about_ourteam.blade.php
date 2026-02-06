@@ -63,12 +63,12 @@
                                         tabindex="-1">
                                         <!-- Avatar -->
                                         <div class="avatar avatar-xxl mb-3">
-                                            <img class="avatar-img rounded-circle" src="assets/images/avatar/09.jpg"
+                                            <img class="avatar-img rounded-circle" src="assets/images/avatar/09.jpeg"
                                                 alt="avatar">
                                         </div>
                                         <!-- Info -->
-                                        <h6 class="mb-0"><a href="#">Frances Guerrero</a></h6>
-                                        <p class="mb-0 small">Developer</p>
+                                        <h6 class="mb-0"><a href="#">Sanskar Mishra</a></h6>
+                                        <p class="mb-0 small">Frontend Developer</p>
                                         <!-- Rating -->
                                         <ul class="list-inline mb-0">
                                             <li class="list-inline-item me-0 small"><i
@@ -111,12 +111,12 @@
                                         tabindex="-1">
                                         <!-- Avatar -->
                                         <div class="avatar avatar-xxl mb-3">
-                                            <img class="avatar-img rounded-circle" src="assets/images/avatar/10.jpg"
+                                            <img class="avatar-img rounded-circle" src="assets/images/avatar/10.jpeg"
                                                 alt="avatar">
                                         </div>
                                         <!-- Info -->
-                                        <h6 class="mb-0"><a href="#">Louis Crawford</a></h6>
-                                        <p class="mb-0 small">Medical Professor</p>
+                                        <h6 class="mb-0"><a href="#">Vipin Verma</a></h6>
+                                        <p class="mb-0 small">Full Stack  Developer</p>
                                         <!-- Rating -->
                                         <ul class="list-inline mb-0">
                                             <li class="list-inline-item me-0 small"><i
@@ -183,12 +183,12 @@
                                         tabindex="-1">
                                         <!-- Avatar -->
                                         <div class="avatar avatar-xxl mb-3">
-                                            <img class="avatar-img rounded-circle" src="assets/images/avatar/09.jpg"
+                                            <img class="avatar-img rounded-circle" src="assets/images/avatar/09.jpeg"
                                                 alt="avatar">
                                         </div>
                                         <!-- Info -->
-                                        <h6 class="mb-0"><a href="#">Frances Guerrero</a></h6>
-                                        <p class="mb-0 small">Developer</p>
+                                        <h6 class="mb-0"><a href="#">Sanskar Mishra</a></h6>
+                                        <p class="mb-0 small">Frontend Developer</p>
                                         <!-- Rating -->
                                         <ul class="list-inline mb-0">
                                             <li class="list-inline-item me-0 small"><i
@@ -231,12 +231,12 @@
                                         tabindex="-1">
                                         <!-- Avatar -->
                                         <div class="avatar avatar-xxl mb-3">
-                                            <img class="avatar-img rounded-circle" src="assets/images/avatar/10.jpg"
+                                            <img class="avatar-img rounded-circle" src="assets/images/avatar/10.jpeg"
                                                 alt="avatar">
                                         </div>
                                         <!-- Info -->
-                                        <h6 class="mb-0"><a href="#">Louis Crawford</a></h6>
-                                        <p class="mb-0 small">Medical Professor</p>
+                                        <h6 class="mb-0"><a href="#">Vipin Verma</a></h6>
+                                        <p class="mb-0 small">Full Stack  Developer</p>
                                         <!-- Rating -->
                                         <ul class="list-inline mb-0">
                                             <li class="list-inline-item me-0 small"><i
@@ -309,12 +309,12 @@
                                         tabindex="-1">
                                         <!-- Avatar -->
                                         <div class="avatar avatar-xxl mb-3">
-                                            <img class="avatar-img rounded-circle" src="assets/images/avatar/09.jpg"
+                                            <img class="avatar-img rounded-circle" src="assets/images/avatar/09.jpeg"
                                                 alt="avatar">
                                         </div>
                                         <!-- Info -->
-                                        <h6 class="mb-0"><a href="#">Frances Guerrero</a></h6>
-                                        <p class="mb-0 small">Developer</p>
+                                        <h6 class="mb-0"><a href="#">Sanskar Mishra</a></h6>
+                                        <p class="mb-0 small">Frontend Developer</p>
                                         <!-- Rating -->
                                         <ul class="list-inline mb-0">
                                             <li class="list-inline-item me-0 small"><i
@@ -361,12 +361,12 @@
                                         tabindex="-1">
                                         <!-- Avatar -->
                                         <div class="avatar avatar-xxl mb-3">
-                                            <img class="avatar-img rounded-circle" src="assets/images/avatar/10.jpg"
+                                            <img class="avatar-img rounded-circle" src="assets/images/avatar/10.jpeg"
                                                 alt="avatar">
                                         </div>
                                         <!-- Info -->
-                                        <h6 class="mb-0"><a href="#">Louis Crawford</a></h6>
-                                        <p class="mb-0 small">Medical Professor</p>
+                                        <h6 class="mb-0"><a href="#">Vipin Verma</a></h6>
+                                        <p class="mb-0 small">Full Stack  Developer</p>
                                         <!-- Rating -->
                                         <ul class="list-inline mb-0">
                                             <li class="list-inline-item me-0 small"><i
@@ -432,12 +432,12 @@
                                     <div class="text-center tns-item tns-slide-cloned tns-slide-active">
                                         <!-- Avatar -->
                                         <div class="avatar avatar-xxl mb-3">
-                                            <img class="avatar-img rounded-circle" src="assets/images/avatar/09.jpg"
+                                            <img class="avatar-img rounded-circle" src="assets/images/avatar/09.jpeg"
                                                 alt="avatar">
                                         </div>
                                         <!-- Info -->
-                                        <h6 class="mb-0"><a href="#">Frances Guerrero</a></h6>
-                                        <p class="mb-0 small">Developer</p>
+                                        <h6 class="mb-0"><a href="#">Sanskar Mishra</a></h6>
+                                        <p class="mb-0 small">Frontend Developer</p>
                                         <!-- Rating -->
                                         <ul class="list-inline mb-0">
                                             <li class="list-inline-item me-0 small"><i
@@ -478,12 +478,12 @@
                                     <div class="text-center tns-item tns-slide-cloned tns-slide-active">
                                         <!-- Avatar -->
                                         <div class="avatar avatar-xxl mb-3">
-                                            <img class="avatar-img rounded-circle" src="assets/images/avatar/10.jpg"
+                                            <img class="avatar-img rounded-circle" src="assets/images/avatar/10.jpeg"
                                                 alt="avatar">
                                         </div>
                                         <!-- Info -->
-                                        <h6 class="mb-0"><a href="#">Louis Crawford</a></h6>
-                                        <p class="mb-0 small">Medical Professor</p>
+                                        <h6 class="mb-0"><a href="#">Vipin Verma</a></h6>
+                                        <p class="mb-0 small">Full Stack  Developer</p>
                                         <!-- Rating -->
                                         <ul class="list-inline mb-0">
                                             <li class="list-inline-item me-0 small"><i

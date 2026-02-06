@@ -1,6 +1,6 @@
 @extends('front.layout.master')
 @section('content')
-    @include('front.components.about_banner')
-    @include('front.components.about_founder')
-    @include('front.components.about_ourteam')
+    @include('front.Components.about_banner')
+    @include('front.Components.about_founder')
+    @include('front.Components.about_ourteam')
 @endsection

@@ -8,6 +8,7 @@
     <title>Learnsphere</title>
     @include('front.layout.head-css')
 </head>
+
 <body>
     @include('front.layout.header')
 
@@ -16,4 +17,5 @@
     @include('front.layout.footer')
     @include('front.layout.script')
 </body>
+
 </html>

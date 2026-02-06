@@ -4,7 +4,7 @@
 				<!-- Title -->
 				<div class="row mb-4">
 					<div class="col-lg-8 mx-auto text-center">
-						<h2>Choose a Categories</h2>
+						<h2>Choose a Category</h2>
 						<p class="mb-0">Perceived end knowledge certainly day sweetness why cordially</p>
 					</div>
 				</div>

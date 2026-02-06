@@ -98,9 +98,9 @@
             <div class="container px-0">
                 <div class="d-lg-flex justify-content-between align-items-center py-3 text-center text-md-left">
                     <!-- copyright text -->
-                    <div class="text-body text-primary-hover"> Copyrights ©2025 LearnSphere. Build by <a
-                            href="https://1.envato.market/stackbros-portfolio" target="_blank" class="text-body">Our
-                            Team</a></div>
+                    <div class="text-body text-primary-hover"> Copyrights ©2025 LearnSphere. Build by Our Team <a>
+                            href="https://1.envato.market/stackbros-portfolio" target="_blank"
+                            class="text-body">StackBros</a></div>
                     <!-- copyright links-->
                     <div class="justify-content-center mt-3 mt-lg-0">
                         <ul class="nav list-inline justify-content-center mb-0">
