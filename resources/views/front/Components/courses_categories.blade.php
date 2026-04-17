@@ -1,5 +1,5 @@
 {{-- Courses Categories page --}}
-		<section>
+{{-- <section>
 			<div class="container">
 				<!-- Title -->
 				<div class="row mb-4">
@@ -167,4 +167,231 @@
 					</div>
 				</div>
 			</div>
-		</section>
+</section>  --}}
+
+
+
+
+
+
+
+
+
+{{-- <section>
+    <div class="container">
+
+        <div class="row mb-4">
+            <div class="col-lg-8 mx-auto text-center">
+                <h2>Popular Courses</h2>
+                <p class="mb-0">Choose your course and start learning</p>
+            </div>
+        </div>
+
+        <div class="row g-4">
+
+            <!-- Web Development -->
+            <div class="col-sm-6 col-md-4">
+                <div class="card card-body text-center p-4">
+                    <h5 class="mb-2">Web Development</h5>
+                    <p>HTML, CSS, JavaScript, Laravel</p>
+                    <a href="/course/web-development" class="btn btn-primary">
+                        Enroll Now
+                    </a>
+                </div>
+            </div>
+
+            <!-- Python -->
+            <div class="col-sm-6 col-md-4">
+                <div class="card card-body text-center p-4">
+                    <h5 class="mb-2">Python Programming</h5>
+                    <p>Python from beginner to advanced</p>
+                    <a href="/course/python" class="btn btn-primary">
+                        Enroll Now
+                    </a>
+                </div>
+            </div>
+
+            <!-- DSA -->
+            <div class="col-sm-6 col-md-4">
+                <div class="card card-body text-center p-4">
+                    <h5 class="mb-2">Data Structures & Algorithms</h5>
+                    <p>Master DSA concepts</p>
+                    <a href="/course/dsa" class="btn btn-primary">
+                        Enroll Now
+                    </a>
+                </div>
+            </div>
+
+            <!-- DBMS -->
+            <div class="col-sm-6 col-md-4">
+                <div class="card card-body text-center p-4">
+                    <h5 class="mb-2">Database Management</h5>
+                    <p>Learn SQL & Database</p>
+                    <a href="/course/dbms" class="btn btn-primary">
+                        Enroll Now
+                    </a>
+                </div>
+            </div>
+
+            <!-- Machine Learning -->
+            <div class="col-sm-6 col-md-4">
+                <div class="card card-body text-center p-4">
+                    <h5 class="mb-2">Machine Learning</h5>
+                    <p>Learn ML Basics</p>
+                    <a href="/course/ml" class="btn btn-primary">
+                        Enroll Now
+                    </a>
+                </div>
+            </div>
+
+            <!-- Aptitude -->
+            <div class="col-sm-6 col-md-4">
+                <div class="card card-body text-center p-4">
+                    <h5 class="mb-2">Aptitude & Interview</h5>
+                    <p>Placement preparation</p>
+                    <a href="/course/aptitude" class="btn btn-primary">
+                        Enroll Now
+                    </a>
+                </div>
+            </div>
+
+        </div>
+    </div>
+</section>  --}}
+
+<section class="py-5">
+    <div class="container">
+
+        <div class="row mb-4">
+            <div class="col-lg-8 mx-auto text-center">
+                <h2>Popular Courses</h2>
+                <p>Select course and start learning</p>
+            </div>
+        </div>
+
+        <div class="row g-4">
+
+            <!-- Web Development -->
+            <div class="col-md-4">
+                <div class="card shadow-sm h-100">
+
+                    <img src="{{ asset('assets/images/courses_images/web.png') }}" class="card-img-top course-img">
+
+                    <div class="card-body">
+
+                        <h5>Web Development</h5>
+
+                        <p>HTML, CSS, JavaScript, Laravel</p>
+
+                        <a href="{{ route('courses.web') }}" class="btn btn-primary w-100">
+                            Enroll Now
+                        </a>
+
+
+                    </div>
+                </div>
+            </div>
+
+            <!-- Python -->
+            <div class="col-md-4">
+                <div class="card shadow-sm h-100">
+
+                    <img src="{{ asset('assets/images/courses_images/python.jpg') }}" class="card-img-top course-img">
+
+                    <div class="card-body">
+
+                        <h5>Python Programming</h5>
+
+                        <p>Python beginner to advanced</p>
+
+                        <a href="{{ route('courses.python') }}" class="btn btn-primary w-100">
+                            Enroll Now
+                        </a>
+
+                    </div>
+                </div>
+            </div>
+
+            <!-- DSA -->
+            <div class="col-md-4">
+                <div class="card shadow-sm h-100">
+
+                    <img src="{{ asset('assets/images/courses_images/dsa.png') }}" class="card-img-top course-img">
+
+                    <div class="card-body">
+
+                        <h5>Data Structures & Algorithms</h5>
+
+                        <p>Master DSA</p>
+
+                        <a href="{{ route('courses.dsa') }}" class="btn btn-primary w-100">
+                            Enroll Now
+                        </a>
+
+                    </div>
+                </div>
+            </div>
+
+            <!-- DBMS -->
+            <div class="col-md-4">
+                <div class="card shadow-sm h-100">
+
+                    <img src="{{ asset('assets/images/courses_images/dbms.png') }}" class="card-img-top course-img">
+
+                    <div class="card-body">
+
+                        <h5>Database Management</h5>
+
+                        <p>SQL & DBMS</p>
+
+                        <a href="{{ route('courses.dbms') }}" class="btn btn-primary w-100">
+                            Enroll Now
+                        </a>
+
+                    </div>
+                </div>
+            </div>
+
+            <!-- Machine Learning -->
+            <div class="col-md-4">
+                <div class="card shadow-sm h-100">
+
+                    <img src="{{ asset('assets/images/courses_images/ml.png') }}" class="card-img-top course-img">
+
+                    <div class="card-body">
+
+                        <h5>Machine Learning</h5>
+
+                        <p>ML basics</p>
+
+                        <a href="{{ route('courses.ml') }}" class="btn btn-primary w-100">
+                            Enroll Now
+                        </a>
+
+                    </div>
+                </div>
+            </div>
+
+            <!-- Aptitude -->
+            <div class="col-md-4">
+                <div class="card shadow-sm h-100">
+
+                    <img src="{{ asset('assets/images/courses_images/aptitude.png') }}" class="card-img-top course-img">
+
+                    <div class="card-body">
+
+                        <h5>Aptitude & Interview</h5>
+
+                        <p>Placement preparation</p>
+
+                        <a href="{{ route('courses.aptitude') }}" class="btn btn-primary w-100">
+                            Enroll Now
+                        </a>
+
+                    </div>
+                </div>
+            </div>
+
+        </div>
+    </div>
+</section>

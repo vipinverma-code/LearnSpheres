@@ -22590,3 +22590,30 @@ html[dir=rtl] .choices__input {
   display: none !important;
 }
 /*User CSS*/
+
+.course-img{
+height:200px;
+object-fit:cover;
+width:100%;
+border-top-left-radius:10px;
+border-top-right-radius:10px;
+}
+.course-banner {
+    width: 100%;
+    height: 320px;
+    object-fit: cover;
+    border-radius: 10px;
+    box-shadow: 0 4px 12px rgba(0,0,0,0.1);
+}
+.mentor-img{
+width:90px;
+height:90px;
+border-radius:50%;
+object-fit:cover;
+margin:auto;
+}
+
+.mentor-card:hover{
+transform: translateY(-5px);
+transition: 0.3s ease;
+}

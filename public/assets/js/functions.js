@@ -578,7 +578,18 @@ var e = {
     // END: Choices
 
     // START: 12 AOS Animation
+    // aosFunc: function () {
+    //     var aos = e.select('.aos');
+    //     if (e.isVariableDefined(aos)) {
+    //         AOS.init({
+    //             duration: 500,
+    //             easing: 'ease-out-quart',
+    //             once: true
+    //         });
+    //     }
+    // },
     aosFunc: function () {
+    if (typeof AOS !== 'undefined') {
         var aos = e.select('.aos');
         if (e.isVariableDefined(aos)) {
             AOS.init({
@@ -587,7 +598,10 @@ var e = {
                 once: true
             });
         }
-    },
+    }
+},
+
+
     // END: AOS Animation
 
     // START: 13 Dashboard Chart

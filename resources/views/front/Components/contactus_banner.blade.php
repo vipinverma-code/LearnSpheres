@@ -19,15 +19,15 @@
 							<ul class="list-inline mb-0">
 								<!-- Address -->
 								<li class="list-item mb-3">
-									<a href="#" class="text-white"> <i class="fas fa-fw fa-map-marker-alt me-2 mt-1"></i>Chicago HQ Estica Cop. Macomb, MI 48042 </a>
+									<a href="#" class="text-white"> <i class="fas fa-fw fa-map-marker-alt me-2 mt-1"></i>Adarsh Nagar Colony Near Ambey Girls Hostel,Matiyari,Lucknow,226028 </a>
 								</li>
 								<!-- Phone number -->
 								<li class="list-item mb-3">
-									<a href="#" class="text-white"> <i class="fas fa-fw fa-phone-alt me-2"></i>(423) 733-8222 </a>
+									<a href="#" class="text-white"> <i class="fas fa-fw fa-phone-alt me-2"></i>9250939345 </a>
 								</li>
 								<!-- Email id -->
 								<li class="list-item mb-0">
-									<a href="#" class="text-white"> <i class="far fa-fw fa-envelope me-2"></i>example@email.com </a>
+									<a href="#" class="text-white"> <i class="far fa-fw fa-envelope me-2"></i>learnsphere2@gmail.com </a>
 								</li>
 							</ul>
 						</div>
@@ -41,15 +41,15 @@
 							<ul class="list-inline mb-0">
 								<!-- Address -->
 								<li class="list-item mb-3 h6 fw-light">
-									<a href="#"> <i class="fas fa-fw fa-map-marker-alt me-2 mt-1"></i>2492 Centennial NW, Acworth, GA, 30102 </a>
+									<a href="#"> <i class="fas fa-fw fa-map-marker-alt me-2 mt-1"></i>Adarsh Nagar Colony Near Ambey Girls Hostel,Matiyari,Lucknow,226028 </a>
 								</li>
 								<!-- Phone number -->
 								<li class="list-item mb-3 h6 fw-light">
-									<a href="#"> <i class="fas fa-fw fa-phone-alt me-2"></i>+896-789-546 </a>
+									<a href="#"> <i class="fas fa-fw fa-phone-alt me-2"></i>+9250939345 </a>
 								</li>
 								<!-- Email id -->
 								<li class="list-item mb-0 h6 fw-light">
-									<a href="#"> <i class="far fa-fw fa-envelope me-2"></i>example@email.com </a>
+									<a href="#"> <i class="far fa-fw fa-envelope me-2"></i>learnsphere2@gmail.com </a>
 								</li>
 							</ul>
 						</div>
@@ -63,15 +63,15 @@
 							<ul class="list-inline mb-0">
 								<!-- Address -->
 								<li class="list-item mb-3 h6 fw-light">
-									<a href="#"> <i class="fas fa-fw fa-map-marker-alt me-2 mt-1"></i>2002 Horton Ford Rd, Eidson, TN, 37731 </a>
+									<a href="#"> <i class="fas fa-fw fa-map-marker-alt me-2 mt-1"></i>Adarsh Nagar Colony Near Ambey Girls Hostel,Matiyari,Lucknow,226028  </a>
 								</li>
 								<!-- Phone number -->
 								<li class="list-item mb-3 h6 fw-light">
-									<a href="#"> <i class="fas fa-fw fa-phone-alt me-2"></i>(678) 324-1251 </a>
+									<a href="#"> <i class="fas fa-fw fa-phone-alt me-2"></i>+9250939345 </a>
 								</li>
 								<!-- Email id -->
 								<li class="list-item mb-0 h6 fw-light">
-									<a href="#"> <i class="far fa-fw fa-envelope me-2"></i>example@email.com </a>
+									<a href="#"> <i class="far fa-fw fa-envelope me-2"></i>learnsphere2@gmail.com </a>
 								</li>
 							</ul>
 						</div>

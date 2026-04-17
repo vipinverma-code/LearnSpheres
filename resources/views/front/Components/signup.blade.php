@@ -42,32 +42,58 @@
                         <p class="lead mb-4">Nice to see you! Please Sign up with your account.</p>
 
                         <!-- Form START -->
-                        <form>
+                        <form method="POST" action="{{ route('register') }}">
+                            @csrf
+                            {{-- Name field --}}
+
+                            <div class="mb-4">
+                                <label class="form-label">Full Name *</label>
+                                <input type="text" name="name" value="{{ old('name') }}"
+                                    class="form-control border-0 bg-light" placeholder="Full Name" required>
+                                @error('name')
+                                    <div class="text-danger small">{{ $message }}</div>
+                                @enderror
+                            </div>
+
                             <!-- Email -->
                             <div class="mb-4">
                                 <label for="exampleInputEmail1" class="form-label">Email address *</label>
                                 <div class="input-group input-group-lg">
-                                    <span
-                                        class="input-group-text bg-light rounded-start border-0 text-secondary px-3"><i
-                                            class="bi bi-envelope-fill"></i></span>
-                                    <input type="email" class="form-control border-0 bg-light rounded-end ps-1"
-                                        placeholder="E-mail" id="exampleInputEmail1">
+                                    <span class="input-group-text bg-light rounded-start border-0 text-secondary px-3"><i
+                                    class="bi bi-envelope-fill"></i></span>
+                                    <input type="email" name="email" value="{{ old('email') }}"
+                                        class="form-control border-0 bg-light rounded-end ps-1"placeholder="E-mail"
+                                        id="exampleInputEmail1" required>
+
+
+                                    @error('email')
+                                        <div class="text-danger small">{{ $message }}</div>
+                                    @enderror
                                 </div>
                             </div>
 
-
+                            {{-- Role Selection --}}
                             <div class="mb-4">
                                 <label for="userRole" class="form-label">Choose Your Role *</label>
                                 <div class="input-group input-group-lg">
                                     <span class="input-group-text bg-light rounded-start border-0 text-secondary px-3">
                                         <i class="bi bi-person-badge-fill"></i>
                                     </span>
-                                    <select class="form-select border-0 bg-light rounded-end ps-1" id="userRole">
-                                        <option value="">Select Role</option>
-                                        <option value="student">Student</option>
-                                        <option value="instructor">Instructor</option>
-                                        <option value="mentor">Mentor</option>
+                                    <select name="role" class="form-select border-0 bg-light rounded-end ps-1"
+                                        id="userRole" required>
+                                        <option value="student" {{ old('role') == 'student' ? 'selected' : '' }}>Student
+                                        </option>
+                                        <option value="instructor" {{ old('role') == 'instructor' ? 'selected' : '' }}>
+                                            Instructor</option>
+                                        <option value="mentor" {{ old('role') == 'mentor' ? 'selected' : '' }}>Mentor
+                                        </option>
+
+
                                     </select>
+                                    @error('role')
+                                        <div class="text-danger small">{{ $message }}</div>
+                                    @enderror
+
                                 </div>
                             </div>
                             <!-- Password -->
@@ -77,8 +103,13 @@
                                     <span
                                         class="input-group-text bg-light rounded-start border-0 text-secondary px-3"><i
                                             class="fas fa-lock"></i></span>
-                                    <input type="password" class="form-control border-0 bg-light rounded-end ps-1"
-                                        placeholder="*********" id="inputPassword5">
+                                    <input type="password" name="password"
+                                        class="form-control border-0 bg-light rounded-end ps-1" placeholder="*********"
+                                        id="inputPassword5" required>
+
+                                    @error('password')
+                                        <div class="text-danger small">{{ $message }}</div>
+                                    @enderror
                                 </div>
                             </div>
                             <!-- Confirm Password -->
@@ -88,14 +119,15 @@
                                     <span
                                         class="input-group-text bg-light rounded-start border-0 text-secondary px-3"><i
                                             class="fas fa-lock"></i></span>
-                                    <input type="password" class="form-control border-0 bg-light rounded-end ps-1"
-                                        placeholder="*********" id="inputPassword6">
+                                    <input type="password" name="password_confirmation"
+                                        class="form-control border-0 bg-light rounded-end ps-1" placeholder="*********"
+                                        id="inputPassword6" required>
                                 </div>
                             </div>
                             <!-- Check box -->
                             <div class="mb-4">
                                 <div class="form-check">
-                                    <input type="checkbox" class="form-check-input" id="checkbox-1">
+                                    <input type="checkbox" required class="form-check-input" id="checkbox-1">
                                     <label class="form-check-label" for="checkbox-1">By signing up, you agree to the<a
                                             href="#"> terms of service</a></label>
                                 </div>
@@ -103,14 +135,14 @@
                             <!-- Button -->
                             <div class="align-items-center mt-0">
                                 <div class="d-grid">
-                                    <button class="btn btn-primary mb-0" type="button">Sign Up</button>
+                                    <button class="btn btn-primary mb-0" type="submit">Sign Up</button>
                                 </div>
                             </div>
                         </form>
                         <!-- Form END -->
 
                         <!-- Social buttons -->
-                        <div class="row">
+                        {{-- <div class="row">
                             <!-- Divider with text -->
                             <div class="position-relative my-4">
                                 <hr>
@@ -126,11 +158,11 @@
                                 <a href="#" class="btn bg-facebook mb-0"><i
                                         class="fab fa-fw fa-facebook-f me-2"></i>Signup with Facebook</a>
                             </div>
-                        </div>
+                        </div> --}}
 
                         <!-- Sign up link -->
                         <div class="mt-4 text-center">
-                            <span>Already have an account?<a href="sign-in.php"> Sign in here</a></span>
+                            <span>Already have an account?<a href="{{ route('signin') }}"> Sign in here</a></span>
                         </div>
                     </div>
                 </div>
